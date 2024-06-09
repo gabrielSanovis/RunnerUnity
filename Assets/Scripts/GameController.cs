@@ -63,7 +63,7 @@ public class GameController : MonoBehaviour
         {
             SceneManager.LoadScene(0);
             Time.timeScale = 1;
-        _txtRestart.text = "";
+            _txtRestart.text = "";
         }
     }
     IEnumerator SpawnObstaculo()
